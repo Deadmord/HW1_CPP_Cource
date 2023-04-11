@@ -97,15 +97,12 @@ int main()
         order1.distance = 50.50;
         order1.price = 100.5E02;
         order1.status = inprogress;
-
     }
-
 
     std::cout << "Test hardcode init order:\n";
     print_order(&order1);
 
     make_order(&order2);
-
     print_order(&order2);
     
 
